@@ -2,15 +2,21 @@
 
 <html>
 
-<head>
-  <title>The Solar System</title>
+  <head>
+    <title>The Solar System</title>
+    <link rel="stylesheet" href="Astronomy.css" />
+    <a href="HomePage-Astronomy.html">Homepage</a>
+  </head>
 
+  <body>
+    <h1>Click A Planet</h1>
+    <div>
+      <img src="images/solar_system.jpg" alt="Planets" usemap="#planetmap" />
+      <map name="planetmap" id="planetmap">
+        <area shape="circle" coords="380,383,138" href="sun.html" alt="The Sun">
+      </map>
+    </div>
 
-  </style>
-</head>
-
-<body style = "background-image:url('images/solar_system.jpg')">
-  <h1 style = "color:#F2F2F2">Click A Planet</h1>
-</body>
+  </body>
 
 </html>
