@@ -1,33 +1,32 @@
 
-body, html {
-  height: 100%;
-  width: 100%;
-}
-
-body{
-
-  background: url(imgsrc) black;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-}
-
-h1 {
+h1.main_header {
   color: #F2F2F2;
   font: 40px;
   text-align: center;
   font-family: impact;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
 }
 
+body.galaxy {
+  background-image: url(images/galaxy_bg.jpg);
+  background-size: cover;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-repeat: no-repeat;
+}
 
-p{
+body.solar_system {
+  background-image: url(images/solar_system.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+}
+
+p {
   color: #F2F2F2;
   text-align: center;
   font-family: impact;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;7
 
 }
 
